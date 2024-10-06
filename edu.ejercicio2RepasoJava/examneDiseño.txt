@@ -1,0 +1,51 @@
+MENU PRICNIPAL:
+	- MENU EMPLEADO
+		* CALCULO TOTAL DE VENTAS
+		* AÑADIR VENTAS
+
+	- MENU GERENTE:
+		* MOSTRAR VENTAS DEL DIA 
+		* CREAR NUEVO PEDIDO PARA PROVEEDORES
+
+
+AÑADIR VENTA: 1  (LISTO)
+- Solicita importe
+- Se guarda importe y la fecha de la venta (automatico)
+- Debe tener id cada venta
+
+CALCULO TOTAL DE VENTAS: 4 
+- Se solicita fecha (formato dd-MM-yyyy)
+- Se obtendra: 
+	* El importe total de toda las ventas de la fecha señalada 
+	* Los minutos que pasaron desde la primera hasta la ultima
+
+MOSTRAR VENTAS DEL DIA 3  (LISTO)
+- Se solicita fecha (formato dd-MM-yyyy)
+- Se obtendra:
+	- Todas las ventas registradas (de ese dia) con el formato:
+		Venta número: 1
+		Euros: 220 euros
+		Instante de compra: 31-12-2023 10:09:00
+
+CREAR NUEVO PEDIDO PARA PROVEEDORES 2 (LISTO)
+- Se solicitaran los siguientes campos del producto de forma ciclica:	
+	* Nombre del producto
+	* Cantidad del producto
+	* Fecha deseada de entrega (dd-MM-yyyy)
+
+- Cuando se finalize, se mostraran el pedido de los productos con el formato:
+ 	Producto: Cepillo de dientes
+	Cantidad: 20 unidades
+	Fecha entrega: 31-12-2023
+
+
+* DTOS (LISTO)
+	- Ventas
+	- Productos
+* Menu / TRYCATCH / COMENTARIOS / LOG/ Crear lista (si existiera) 
+* Servicios
+     - Operativa
+     - Ficheros:
+          - Guardar alumnos
+          - Cargar alumnos (carga inical) 
+
